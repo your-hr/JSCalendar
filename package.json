@@ -1,0 +1,28 @@
+{
+  "name": "JSCalendar",
+  "version": "1.0.0",
+  "description": "YourHR Calendar",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-sass": "^2.3.2",
+    "gulp": "^3.9.1",
+    "browser-sync": "^2.13.0",
+    "gulp-sourcemap": "^1.0.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "jquery": "^3.1.1"
+  },
+  "scripts": {
+    "test": "gulp lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/texarr/JSCalendar"
+  },
+  "author": "Daniel Pietrucha",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-jshint": "^2.0.4",
+    "gulp-minify": "0.0.15",
+    "jshint": "^2.9.4"
+  }
+}

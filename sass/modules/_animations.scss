@@ -1,0 +1,14 @@
+@keyframes pulse {
+  0% {
+    background: $btn-secondary;
+    color: $main-font-color;
+  }
+  50% {
+    background: $main-btn-hover;
+    color: $btn-secondary;
+  }
+  100% {
+    background: $btn-color;
+    color: $btn-secondary;
+  }
+}

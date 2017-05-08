@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JSCalendar</title>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="js/calendarVariables.js"></script>
+    <script type="text/javascript" src="js/buildCalendarV2.js"></script>
+    <script type="text/javascript" src="js/drawCalendar.js"></script>
+    <script type="text/javascript" src="js/sendData.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+    <!-- description -->
+    <h1>JS Calendar demo</h1>
+    <h3>To include this module in your site you need to add scripts with correct paths in your &lthead&gt section:</h3>
+    <p><ul>
+      <li>src="../jquery/dist/jquery.min.js"</li>
+      <li>src="js/calendarVariables.js"</li>
+      <li>src="js/buildCalendarV2.js"</li>
+      <li>src="js/drawCalendar.js"</li>
+      <li>src="js/sendData.js"</li>
+      <li>href="css/main.css"</li>
+    </ul></p>
+    <h3>You may add calenars in html by adding containers &ltdiv class="calendar__container"&gt</h3>
+    <ul>and simple calendars:
+    <li>&ltdiv class="simple_calendar" data-year="2017"&gt</li>
+    <li>&ltdiv class="simple_calendar" data-year="2018"&gt</li>
+    </ul>
+    <h3>or add &ltselect&gt form to add menu for calendars</h3>
+    <p>See below section in your developer tools</p>
+
+    <!-- demo -->
+    <form class="calendar__form">
+      <label>Select year</label>
+      <select class="year_select" name="year_select">
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+      </select>
+      <input type="submit" value="Submit">
+    </form>
+    
+    <button type="button" class="send_availability" name="Submit availability">Submit availability</button>
+
+    <div class="calendar__container">
+        <p>2017</p>
+        <div class="simple_calendar" data-year="2017"></div>
+        <p>2018</p>
+        <div class="simple_calendar" data-year="2018"></div>
+        <!-- incorrect simple calendar use -->
+        <div class="simple_calendar"></div>
+    </div>
+  </body>
+</html>
