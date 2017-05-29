@@ -1,8 +1,8 @@
 # JSCalendar
 YourHR calendar
 
-![https://img.shields.io/travis/your-hr/JSCalendar.svg](https://travis-ci.org/your-hr/JSCalendar)
-![https://img.shields.io/coveralls/your-hr/JSCalendar.svg](https://coveralls.io/github/your-hr/JSCalendar)
+![https://travis-ci.org/your-hr/JSCalendar](https://img.shields.io/travis/your-hr/JSCalendar.svg)
+![https://coveralls.io/github/your-hr/JSCalendar](https://img.shields.io/coveralls/your-hr/JSCalendar.svg)
 
 You need a html structure like this to use calendar:
 
